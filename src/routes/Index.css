@@ -1,0 +1,7 @@
+.HomeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem 1rem 1rem 1rem;
+}

@@ -1,0 +1,63 @@
+.Nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  padding: 1rem;
+  background-color: #333;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Item {
+  display: flex;
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 550;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+.Item:hover {
+  color: cyan;
+}
+.Card {
+  display: flex;
+  border: 1px solid #777;
+  flex-direction: column;
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+.Card-Img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px 5px 0 0x;
+}
+.Card-Img img {
+  width: 100%;
+  border-radius: 5px 5px 0 0x;
+}
+.Card-Content {
+  display: flex;
+  flex-direction: column;
+  padding: 0.8rem;
+}
+.Title {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: 500;
+  color: #333;
+}
+.Card-Content a {
+  text-decoration: none;
+  color: #444;
+}
+button {
+  background-color: #333;
+  color: aliceblue;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
